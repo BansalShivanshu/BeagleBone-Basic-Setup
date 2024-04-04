@@ -35,7 +35,7 @@ sudo chown $USER /mnt/remote
 cat << 'EOF' > mountNFS.sh
 
 #!/bash/sh
-sudo mount -t nfs 192.168.7.1:home/shivanshu/cmpt433/public /mnt/remote
+sudo mount -t nfs 192.168.7.1:home/<USER>/cmpt433/public /mnt/remote
 
 EOF
 

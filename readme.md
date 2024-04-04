@@ -1,6 +1,7 @@
 ## BeagleBone Basic Setup Script
 
 ### Execution Instructions
+1. In line 38, replace `<USER>` with the username of your host
 1. Copy main.sh to `~/`
 1. From `~/` run the following command
     ```
