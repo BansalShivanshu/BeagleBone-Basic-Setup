@@ -28,6 +28,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install nfs-common
 sudo apt-get install libasan6
+sudo apt-get install build-essential
 
 # Step 3: Enable NFS
 sudo mkdir -p /mnt/remote
